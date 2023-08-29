@@ -562,7 +562,7 @@ class Redfin:
 #  'stingray/api/region/2/8729/floodRisk-data', DONE
 #  'stingray/api/region/2/8729/market-insights-interlinks', DONE
 #  'stingray/api/region/2/8729/envRisk-data', DONE
-#  'stingray/api/market-insights-page?region_id=22015&region_type=2',
+#  'stingray/api/market-insights-page?region_id=22030&region_type=2',
 #  'stingray/api/region/2/8729/home-feature-trends/entrypoint', DONE
 #  'stingray/api/graph/2/8729/All/regional-housing-market/home_prices', ## Always has to be All and region type and region id must match.
 #  'stingray/api/gis/recently-sold?region_type=2&region_id=8729',
@@ -656,7 +656,7 @@ class Redfin:
 #  {'url': '/stingray/api/home/details/initialInfo',
 #   'requestData': {'urlPath': '/stingray/api/home/details/initialInfo',
 #    'method': 'GET',
-#    'queryParams': [{'path': '/VA/Burke/9530-Ashbourn-Dr-22015/home/9701815'}]}}, this give listing id
+#    'queryParams': [{'path': 'NY/Albany/363-Elk-St-12206/home/97942731'}]}}, this give listing id
 #  {'url': '/stingray/api/home/details/similars/solds',
 #   'requestData': {'urlPath': '/stingray/api/home/details/similars/solds',
 #    'method': 'GET',
@@ -700,7 +700,7 @@ class Redfin:
 #  {'url': '/stingray/api/home/details/v1/pagetagsinfo',
 #   'requestData': {'urlPath': '/stingray/api/home/details/v1/pagetagsinfo',
 #    'method': 'GET',
-#    'queryParams': [{'path': '/VA/Burke/9530-Ashbourn-Dr-22015/home/9701815'}]}},
+#    'queryParams': [{'path': 'NY/Albany/363-Elk-St-12206/home/97942731'}]}},
 #  {'url': '/stingray/opendoor/api/estimate/forProperty/9701815?placement=omdp',
 #   'requestData': {'urlPath': '/stingray/opendoor/api/estimate/forProperty/9701815?placement=omdp',
 #    'method': 'GET',
@@ -708,7 +708,7 @@ class Redfin:
 #  {'url': '/stingray/api/home/details/primaryRegionInfo',
 #   'requestData': {'urlPath': '/stingray/api/home/details/primaryRegionInfo',
 #    'method': 'GET',
-#    'queryParams': [{'path': '/VA/Burke/9530-Ashbourn-Dr-22015/home/9701815'}]}}, gives you the region type and region id {"regionType":2,"tableId":8729}}
+#    'queryParams': [{'path': 'NY/Albany/363-Elk-St-12206/home/97942731'}]}}, gives you the region type and region id {"regionType":2,"tableId":8729}}
 #  {'url': '/stingray/do/api/costOfHomeOwnershipDetails',
 #   'requestData': {'urlPath': '/stingray/do/api/costOfHomeOwnershipDetails',
 #    'method': 'GET',
